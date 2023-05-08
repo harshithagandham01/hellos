@@ -1,0 +1,21 @@
+if __name__ == '__main__':
+    l=[]
+    h=[]
+    r=[]
+    n=int(input())
+    for i in range(n):
+        name = input()
+        l.append(name)
+        score = float(input())
+        h.append(score)
+dictionary=dict(zip(l,h))   
+h.sort()
+second=h[1]
+print(dictionary)
+for value in range n:
+    
+    if second==value:
+        r.append
+for i in r:
+    print(i)
+https://stannescet.ac.in/cms/staff/qbank/CSE/Lab_Manual/CS8582-OBJECT%20ORIENTED%20ANALYSISAND%20DESIGN%20LABORATORY-46023968-CS8582%20-%20OOAD%20LAB.pdf
